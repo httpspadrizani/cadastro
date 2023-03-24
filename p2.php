@@ -12,6 +12,11 @@
         <title>Página apresentar.php - Método Get</title>
     </head>
     <body>
+
+    <?php
+        include("menu.php");
+    ?>
+
         <h1>Página form.php</h1>
         <h3>Tela de Dados Recebidos</h3>
         <p><b>Nome: </b> <span><?php echo $_GET["nome"]; ?> </span> </p>
@@ -27,4 +32,5 @@
         <button id="voltar" type="submit" class="btn btn-warning">Voltar</button>
         </a>    
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </html>
